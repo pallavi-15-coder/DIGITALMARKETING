@@ -4,15 +4,15 @@ const Home = () => {
   return (
     <div>
        <div className=" flex flex-col m-10 left-20  gap-6">
-                <h1 className=" ml-2 text-2xl font-normal text-blue-600 ">
+                <h1 className=" ml-2 text-1xl font-normal text-blue-600 ">
                GROW YOUR BUSINESS ONLINE
                </h1> 
              
-                <h2 className=" ml-2 text-6xl font-bold text-black-900">
+                <h2 className=" ml-2 text-5xl font-bold text-black-900">
                Digital Marketing <span className='absolute left-12 mt-15 text-blue-600'>That Drives Results</span>
                </h2> 
 
-               <h3 className=" ml-2 text-2xl  mt-15 font-normal text-blue-900  ">
+               <h3 className=" ml-2 text-1xl  mt-15 font-normal text-blue-900  ">
                We Help Businesses grow online with result-driven digital
               <span className='absolute left-12 mt-7 text-black-400'>
                 marketing strategies that increase traffic, generate leads </span> 
@@ -31,9 +31,9 @@ const Home = () => {
 
             </div>
 
-            <div className="flex justify-end absolute left-165  -mt-70 ">
+            <div className="flex justify-end absolute left-140  -mt-70 ">
              <img
-              src="/image.png" alt="Digital Marketing" className=" w-190 h-110 ml-auto shadow-2xl"
+              src="/image.png" alt="Digital Marketing" className=" w-200 h-110 ml-auto"
              />
                 
               </div>  
@@ -41,21 +41,21 @@ const Home = () => {
               <div className="flex items-center absolute left-10 mt-25 gap-8 ">
 
              <div className="flex items-center  gap-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-icon lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
              <span className="text-gray-800 font-normal ">
               Result Driven
              </span>
               </div>
 
                <div className="flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-icon lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
                <span className="text-gray-800 font-normal ">
                 Affordable Pricing
                 </span>
                </div>
 
               <div className="flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-icon lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-circle-check-icon lucide-circle-check"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
             <span className="text-gray-800 font-normal ">
             24/7 Support
           </span>

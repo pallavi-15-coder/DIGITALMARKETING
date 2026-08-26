@@ -12,10 +12,10 @@ import Footer from './Component/Footer';
 import { Routes, Route, Link } from "react-router-dom";
 const App= () => {
   return (
-    <div className='h-50 gap-2'>
-       <nav className=' flex flex justify-between text-2xl items-center h-22 font-semiobold bg-white-300 shadow-lg '>
+    <div className='h-30  gap-2'>
+       <nav className=' flex flex justify-between text-1xl items-center h-15 font-semiobold bg-white shadow-lg '>
 
-       <img src={Logo} alt="logo" className='h-22 w-60'/>
+       <img src={Logo} alt="logo" className='h-15 w-20'/>
 
         <Link to="/"  className="hover:text-blue-600 ">Home</Link>
 

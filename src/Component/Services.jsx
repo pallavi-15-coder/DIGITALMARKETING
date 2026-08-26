@@ -1,7 +1,7 @@
 import React from 'react'
 import Seo from '../assets/Seo.png';
 import Google from '../assets/Google.png';
-import Social from '../assets/social.png';
+import Social from '../assets/Social.png';
 import Website from '../assets/Website.png';
 
 const Services = () => {
