@@ -1,5 +1,5 @@
 import React from 'react'
-
+import AboutUs from '../assets/AboutUs.jpg'
 const AboutUs = () => {
   return (
   
@@ -14,7 +14,7 @@ const AboutUs = () => {
               
               <div className=" absolute -ml-10  mb-20">
              <img
-              src="/AboutUs.jpg" alt="About Us" className=" w-140 h-90 ml-10  rounded-2xl shadow-3xl"
+              src={AboutUs} alt="About Us" className=" w-140 h-90 ml-10  rounded-2xl shadow-3xl"
              />
              </div>
 
